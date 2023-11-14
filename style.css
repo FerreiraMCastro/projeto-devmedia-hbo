@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+}
+html,body{
+    height: 100%;
+}
+header{
+    width: 100%;
+    font-size: 22px;
+    font-family: sans-serif;
+    background: #4710c1;
+    color:#fff;
+    padding: 20px 0;
+} 
+.topo{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.topo a{
+    color: #4710c1;
+    background: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 auto;
+    padding: 7px 15px;
+    border-radius: 20px;
+}
+span{
+    margin: 0 30px;
+}
+.link-top h1, a{
+    display: inline;
+}
+
+section{
+    width: 100%;
+}
+.img-capa{
+    width: 100%;
+}
+.secao div{
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.secao img{
+    width: 100%;
+}
+.secao p{
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 12px 0;
+}
+.secao a{
+    color: blue;
+}
+.galeria{
+    display: flex;
+    overflow-x: scroll;
+    margin: 0 auto 20px auto;
+}
+.galeria img{
+    width: 315px;
+    margin: 10px;  
+}
+.imagem-sombra{
+    box-shadow: 10px 10px 10px #939393;
+}
